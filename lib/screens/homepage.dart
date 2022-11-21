@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     theme = Provider.of<ThemeProvider>(context);
 
-    theme.setTheme(widget.theme);
+    // theme.setTheme(widget.theme);
 
     return Scaffold(
       appBar: AppBar(
